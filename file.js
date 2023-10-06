@@ -3,6 +3,7 @@ const input2 = document.getElementById("input2");
 const input = document.getElementById("resultabsence");
 const reven = document.getElementById("reven");
 const sel = document.getElementById("sel");
+const shift= document.getElementById("time")
 const re = document.getElementById("re");
 var io;
 var is;
@@ -19,16 +20,23 @@ function ff() {
    
     io=input1.value;
     is=Math.round((Number(io)*0.25)/208);
-    reven.innerHTML=is;
-        
+    
 
+    // ch
+    
+        
+    //Annual Absences
    ww=input2.value;
    ll=Number(ww)*12;
    input.innerHTML=ll; 
 
-   
-   po=Math.round(input.innerHTML * reven.innerHTML);
-   re.innerHTML=po;
+  // Annual Production Lost 
+   po=Math.round(ll * is);
+   reven.innerHTML=po;
+    //Estimated Savings
+
+    op= po-
+
     }
 else{
     reven.innerHTML === "0$";
