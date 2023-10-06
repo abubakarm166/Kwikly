@@ -1,0 +1,131 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }/*
+#reven{
+    padding-right: 20px;
+} */
+.first-text{
+    color:  rgb(27, 76, 97);
+    font-family:  montserrat, helvetica neue, sans-serif; 
+    font-weight: 700;
+}
+.first-p{
+    font-weight: 400;
+    font-family: montserrat, helvetica neue, sans-serif;
+    color:rgb(27, 76, 97) ;
+    font-size: 14px;
+}
+.Select{
+    color: rgb(27, 76, 97);
+    font-family: montserrat, helvetica neue, sans-serif;
+    font-weight: 500;
+    text-align: start;
+}
+.sele #sel{
+    
+    background-color: whitesmoke;
+    width: 80%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    font-weight: 500;
+    
+}
+.sele #time{
+    background-color:whitesmoke;
+    width: 80%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+h5.Annual{
+    color:rgb(27, 76, 97) ;
+    width: 80%;
+    font-weight: 500;
+    font-size: 18px;
+}
+h6.how{
+    color:rgb(27, 76, 97) ;
+    width: 80%;
+    font-size: 13px;
+    font-weight: 300;
+}
+#input2{
+    background-color:white;
+    width: 80%;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 35px;
+    color: gray;
+    padding-right: 20px;
+    text-align: end;
+    padding-left: 15px;
+    font-weight: 500;  
+}
+#input1{
+    background-color:white;
+    width: 80%;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 35px;
+    color: gray;
+    padding-right: 20px;
+    text-align: end;
+    padding-left: 15px;
+    font-weight: 500;  
+}
+.last-btn{
+   width: 40%;
+   border-radius: 5px; 
+    height: 60px;
+    color: white;
+    border: none;
+    background-color: rgb(28, 76, 98);
+}
+#snd{
+    background-color: rgb(22, 61, 78);
+}
+#btun
+{
+    background-color: rgb(28, 76, 98);
+    border: none;
+    color: white;
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.big{
+    height: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(28, 76, 98) ;
+    font-size: 20px;
+} 
+#lat{
+    font-size: 18px;
+    font-weight: 300;
+}
+@media (max-width:767px) {
+    body{
+      padding-left: 30px;
+     
+       
+    }
+    .last-btn{width: 80%;}
+    #input1{
+       margin-top: 10px;
+    }
+    #input2{
+        margin-top: 10px;
+     }
+}
