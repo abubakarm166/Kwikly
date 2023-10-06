@@ -35,7 +35,7 @@ function ff() {
    reven.innerHTML=po;
     //Estimated Savings
 
-    op= po-
+    // op= po-
 
     }
 else{
