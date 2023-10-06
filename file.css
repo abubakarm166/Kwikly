@@ -64,7 +64,7 @@ h6.how{
     border: 2px solid black;
     border-radius: 10px;
     font-size: 35px;
-    color: gray;
+    color: rgb(62, 60, 60);
     padding-right: 20px;
     text-align: end;
     padding-left: 15px;
@@ -77,11 +77,18 @@ h6.how{
     border: 2px solid black;
     border-radius: 10px;
     font-size: 35px;
-    color: gray;
+    
+    color: rgb(62, 60, 60);
     padding-right: 20px;
     text-align: end;
     padding-left: 15px;
     font-weight: 500;  
+}
+#input1::placeholder{
+    color: #b5b0b0;
+}
+#input2::placeholder{
+    color: #b5b0b0;
 }
 .last-btn{
    width: 40%;
