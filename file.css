@@ -194,36 +194,36 @@ box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
 }
 @media (max-width:1366px) {
    ul.navbar-nav{
-  padding-left: 20%;
+  padding-left: 15%;
 gap: 3.5%;
 object-fit: cover;   
 }
 }
 @media (max-width:1220px) {
     ul.navbar-nav{
-   padding-left: 20%;
+   padding-left: 14% !important;
  gap: 2.5%;
  object-fit: cover;   
  }
  }
  @media (max-width:1166px) {
     ul.navbar-nav{
-   padding-left: 20%;
+   padding-left: 12%;
  gap: 1.5%;
  object-fit: cover;   
  }
  }
  @media (max-width:1091px) {
     ul.navbar-nav{
-   padding-left: 15%;
- gap: 1.5%;
+   padding-left: 12% !important ;
+ gap: 1.0%;
  object-fit: cover;   
  }
  }
  @media (max-width:1020px) {
     ul.navbar-nav{
-   padding-left: 10%;
- gap: 1.5%;
+   padding-left: 8% !important;
+ gap: 0.8%;
  object-fit: cover;   
  }
  }
