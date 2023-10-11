@@ -7,24 +7,25 @@ body{
     padding-right: 20px;
 } */
 .first-text{
-    color:  rgb(27, 76, 97);
-    font-family:  montserrat, helvetica neue, sans-serif; 
+    color:  rgb(246, 145, 28);
+    font-family: "Open Sans", sans-serif; 
     font-weight: 700;
 }
 .first-p{
     font-weight: 400;
     font-family: montserrat, helvetica neue, sans-serif;
-    color:rgb(27, 76, 97) ;
+    color:rgb(246, 145, 28);
     font-size: 14px;
+    font-family: "Open Sans", sans-serif; 
 }
 .Select{
-    color: rgb(27, 76, 97);
+    color:rgb(246, 145, 28);
     font-family: montserrat, helvetica neue, sans-serif;
     font-weight: 500;
     text-align: start;
 }
 .sele #sel{
-    
+    font-family: "Open Sans", sans-serif; 
     background-color: whitesmoke;
     width: 80%;
     height: 60px;
@@ -33,6 +34,7 @@ body{
     font-size: 20px;
     padding-left: 15px;
     font-weight: 500;
+    color: #f6911c;
     
 }
 .sele #time{
@@ -43,28 +45,33 @@ body{
     border-radius: 10px;
     font-size: 20px;
     padding-left: 15px;
+    color: #f6911c;
     font-weight: 500;
 }
 h5.Annual{
-    color:rgb(27, 76, 97) ;
+    font-family: "Open Sans", sans-serif; 
+    color:rgb(246, 145, 28) ;
     width: 80%;
     font-weight: 500;
     font-size: 18px;
 }
+
 h6.how{
-    color:rgb(27, 76, 97) ;
+
+    color:rgb(246, 145, 28) ;
     width: 80%;
     font-size: 13px;
     font-weight: 300;
+    font-family: "Open Sans", sans-serif;
 }
 #input2{
     background-color:white;
     width: 80%;
     height: 80px;
-    border: 2px solid black;
+    border: 2px solid #f6911c;
     border-radius: 10px;
     font-size: 35px;
-    color: rgb(62, 60, 60);
+    color: #f6911c;
     padding-right: 20px;
     text-align: end;
     padding-left: 15px;
@@ -74,21 +81,21 @@ h6.how{
     background-color:white;
     width: 80%;
     height: 80px;
-    border: 2px solid black;
+    border: 2px solid #f6911c;
     border-radius: 10px;
     font-size: 35px;
     
-    color: rgb(62, 60, 60);
+    color: #f6911c;
     padding-right: 20px;
     text-align: end;
     padding-left: 15px;
     font-weight: 500;  
 }
 #input1::placeholder{
-    color: #b5b0b0;
+    color: rgb(233, 186, 97);
 }
 #input2::placeholder{
-    color: #b5b0b0;
+    color: rgb(233, 186, 97);
 }
 .last-btn{
    width: 40%;
@@ -96,47 +103,135 @@ h6.how{
     height: 60px;
     color: white;
     border: none;
-    background-color: rgb(28, 76, 98);
+    background-color: #f6911c;
+    transition: 0.4s;
 }
-
+.last-btn:hover{
+    background-color:rgb(222, 222, 222)!important ;
+}
 #snd{
-    background-color: rgb(22, 61, 78);
+    background-color: hwb(32 4% 8%);
   
 }
 .btun
-{
-    background-color: rgb(28, 76, 98);
+{font-family: "Open Sans", sans-serif; 
+    background-color: #f6911c;
     border: none;
     color: white;
     /* height: 50px; */
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-top: 0px;
+    padding-right: 0px !important;
     padding-left: 0px !important;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
+    
     
 }
 .btu
-{
-    background-color: rgb(28, 76, 98);
+{font-family: "Open Sans", sans-serif; 
+    background-color: #f6911c;
     border: none;
     color: white;
+    padding-top: 0px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
     /* height: 50px; */
     align-items: center;
-    border-radius: 5px;
-    padding-top: 0px;
-    padding-left: 0px !important;
+    border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
     
 }
+
+#cot:hover{
+    background-color:rgb(222, 222, 222)!important ;
+}
+#Sign:hover{
+    background-color:rgb(222, 222, 222) !important ;   
+}
+
+.big:hover{
+    background-color: rgb(222, 222, 222);
+}
+
 .big{
+    font-family: "Open Sans", sans-serif; 
     height: 50px;
     border: none;
     color: white;
-    background-color:rgb(28, 76, 98) ;
+    width: 100% !important;
+    border-radius: 10px;
+    background-color:#f6911c ;
     font-size: 20px;
+    transition: 0.4s !important;
 } 
 #lat{
     font-size: 18px;
     font-weight: 300;
+}
+.ge{
+    font-size: 14px !important;
+}
+.geo{
+    color: black !important;
+    transition: 0.4s;
+}
+.geo:hover{
+    color: #f6911c !important;
+}
+.geoo{
+    color: black !important;
+    transition: 0.4s;
+}
+.geoo:hover{
+    color: #f6911c !important;
+}
+@media (max-width:1366px) {
+   ul.navbar-nav{
+  padding-left: 20%;
+gap: 3.5%;
+object-fit: cover;   
+}
+}
+@media (max-width:1220px) {
+    ul.navbar-nav{
+   padding-left: 20%;
+ gap: 2.5%;
+ object-fit: cover;   
+ }
+ }
+ @media (max-width:1166px) {
+    ul.navbar-nav{
+   padding-left: 20%;
+ gap: 1.5%;
+ object-fit: cover;   
+ }
+ }
+ @media (max-width:1091px) {
+    ul.navbar-nav{
+   padding-left: 15%;
+ gap: 1.5%;
+ object-fit: cover;   
+ }
+ }
+ @media (max-width:1020px) {
+    ul.navbar-nav{
+   padding-left: 10%;
+ gap: 1.5%;
+ object-fit: cover;   
+ }
+ }
+@media (max-width:991px) {
+    .last-btn{
+        width: 80%;
+     } 
+     #main{
+        margin-left: 47% ;
+     }
+    .geo{
+        padding-left: 13px !important;
+    } 
+   
 }
 @media (max-width:767px) {
     body{
@@ -144,6 +239,10 @@ h6.how{
       padding-right: 30px;
      
        
+    }
+    #main{
+        margin-left: 45%;
+        margin-right: 45%;
     }
     .last-btn{width: 80%;}
     #input1{
@@ -155,4 +254,53 @@ h6.how{
      .last-btn{
         width: 100%;
      }
+}
+@media (max-width:470px) {
+    #main{
+        margin-left: 42%;
+       
+    }
+}
+@media (max-width:300px) {
+
+    #main{
+       margin-left:37% ;
+    }
+}
+
+@media (max-width:250px) {
+
+    #main{
+       margin-left:35% ;
+    }
+}
+@media (max-width:240px) {
+
+    #main{
+       margin-left:32% ;
+    }
+}
+@media (max-width:210px) {
+
+    #main{
+       margin-left:30% ;
+    }
+}
+@media (max-width:180px) {
+
+    #main{
+       margin-left:20% ;
+    }
+}
+@media (max-width:170px) {
+
+    #main{
+       margin-left:10% ;
+    }
+}
+@media (max-width:140px) {
+
+    #main{
+       margin-left:0% !important ;
+    }
 }
