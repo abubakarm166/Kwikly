@@ -3,6 +3,7 @@ body{
     margin: 0px;
     box-sizing: border-box;
     overflow-x:hidden ;
+    font-family: "Open Sans", sans-serif; 
  }/*
 #reven{
     padding-right: 20px;
@@ -171,18 +172,21 @@ box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
     font-weight: 300;
 }
 .ge{
+    font-family: "Open Sans", sans-serif; 
     font-size: 14px !important;
 }
 .geo{
     color: black !important;
     transition: 0.4s;
     width: 100px;
+    font-family: "Open Sans", sans-serif; 
 }
 .geo:hover{
     color: #f6911c !important;
 }
 .geoo{
     color: black !important;
+    font-family: "Open Sans", sans-serif; 
     transition: 0.4s;
 }
 .geoo:hover{
