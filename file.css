@@ -2,6 +2,7 @@ body{
     padding: 0px ;
     margin: 0px;
     box-sizing: border-box;
+    overflow-x:hidden ;
  }/*
 #reven{
     padding-right: 20px;
@@ -175,6 +176,7 @@ box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
 .geo{
     color: black !important;
     transition: 0.4s;
+    width: 100px;
 }
 .geo:hover{
     color: #f6911c !important;
