@@ -16,12 +16,12 @@ body{
 .first-p{
     font-weight: 400;
     font-family: montserrat, helvetica neue, sans-serif;
-    color:rgb(246, 145, 28);
+    color:black;
     font-size: 14px;
     font-family: "Open Sans", sans-serif; 
 }
 .Select{
-    color:rgb(246, 145, 28);
+    color:black;
     font-family: montserrat, helvetica neue, sans-serif;
     font-weight: 500;
     text-align: start;
@@ -36,7 +36,7 @@ body{
     font-size: 20px;
     padding-left: 15px;
     font-weight: 500;
-    color: #f6911c;
+    color: black;
     
 }
 .sele #time{
@@ -47,12 +47,12 @@ body{
     border-radius: 10px;
     font-size: 20px;
     padding-left: 15px;
-    color: #f6911c;
+    color: black;
     font-weight: 500;
 }
 h5.Annual{
     font-family: "Open Sans", sans-serif; 
-    color:rgb(246, 145, 28) ;
+    color:black;
     width: 80%;
     font-weight: 500;
     font-size: 18px;
@@ -60,7 +60,7 @@ h5.Annual{
 
 h6.how{
 
-    color:rgb(246, 145, 28) ;
+    color:black;
     width: 80%;
     font-size: 13px;
     font-weight: 300;
@@ -70,10 +70,10 @@ h6.how{
     background-color:white;
     width: 80%;
     height: 80px;
-    border: 2px solid #f6911c;
+    border: 2px solid black;
     border-radius: 10px;
     font-size: 35px;
-    color: #f6911c;
+    color: black;
     padding-right: 20px;
     text-align: end;
     padding-left: 15px;
@@ -83,21 +83,21 @@ h6.how{
     background-color:white;
     width: 80%;
     height: 80px;
-    border: 2px solid #f6911c;
+    border: 2px solid black;
     border-radius: 10px;
     font-size: 35px;
     
-    color: #f6911c;
+    color: black;
     padding-right: 20px;
     text-align: end;
     padding-left: 15px;
     font-weight: 500;  
 }
 #input1::placeholder{
-    color: rgb(233, 186, 97);
+    color: rgb(117, 115, 111);
 }
 #input2::placeholder{
-    color: rgb(233, 186, 97);
+    color: rgb(117, 115, 111);
 }
 .last-btn{
    width: 40%;
@@ -178,7 +178,7 @@ box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
 .geo{
     color: black !important;
     transition: 0.4s;
-    width: 100px;
+    width: 102px;
     font-family: "Open Sans", sans-serif; 
 }
 .geo:hover{
