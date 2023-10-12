@@ -9,24 +9,43 @@ body{
     padding-right: 20px;
 } */
 body div.early h1.first-text{
+    /* font-size: 2.5rem; */
+    /* font-size: calc(1.375rem + 1.5vw) !important; */
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 8px;
+    margin-top: 0px;
     color:  rgb(246, 145, 28) !important ;
     font-family: "Open Sans", sans-serif !important; 
     font-weight: 700 !important;
+    
 }
 body div.first-p{
-    font-weight: 400 !important;
-    font-family: montserrat, helvetica neue, sans-serif !important;
+    font-size: 14px !important;
+font-weight: 400 !important;
+line-height: 21px !important;
+margin-bottom: 16px !important;
+margin-top: 0px !important;
+   
+    /* font-family: montserrat, helvetica neue, sans-serif !important; */
     color:black !important;
     font-size: 14px !important;
     font-family: "Open Sans", sans-serif !important; 
 }
  body div.content--2  h2.Select{
+    /* font-size: 2rem !important; */
+    /* font-size: calc(1.325rem + 0.9vw) !important; */
+    font-weight: 500 !important;
+line-height: 38.4px !important;
+margin-bottom: 8px !important;
+margin-top: 0px !important;
     color:black !important;
     font-family: montserrat, helvetica neue, sans-serif !important;
     font-weight: 500 !important;
     text-align: start !important;
 }
 body div.sele #sel{
+
     font-family: "Open Sans", sans-serif !important; 
     background-color: whitesmoke !important;
     width: 80% !important;
@@ -72,6 +91,7 @@ body div.est{
 }
 body div.est h1.est-va{
 color: white !important;
+/* font-size: 40px; */
 }
 body div.content3 h6.how{
     color:black !important;
@@ -120,6 +140,7 @@ body div.content3 div.allin #input1{
     color: rgb(117, 115, 111) !important;
 }
 body div#button button.last-btn{
+    font-size: 20px !important;
    width: 40%  !important;
    border-radius: 5px !important; 
     height: 60px !important;
@@ -254,10 +275,17 @@ box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
 .geoo:hover{
     color: #f6911c !important;
 }
+h5#but{
+    color: white;
+}
+/* h2#resultabsence{
+    
+}  */
+
 @media (max-width:1366px) {
     .navbar-expand-lg .navbar-collapse {
        
-        justify-content: center;
+        justify-content: center !important;
       }
    ul.navbar-nav{
 
@@ -276,7 +304,85 @@ object-fit: cover;
  object-fit: cover;   
  }
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width:1200){
+
+body div.early h1.first-text{
+font-size: 2.5rem !important;
+ }
+h2#resultabsence{
+    font-size: 32px !important;
+}
+ body div.content--2  h2.Select{
+font-size: 32px !important;
+ }
+ body div.est h1.est-va{
+    font-size: 40px !important;
+ }
+ body div#sec div#Sav h2{
+    font-size:32px !important ;
+}
+body div.jej h2.zero{
+    font-size: 32px !important;
+}
+
+
+}
+ @media (max-width:1199){
+     body div.early h1.first-text{
+        font-size:  calc(1.375rem + 1.5vw) !important;
+         }
+
+         body div#sec div#Sav h2.ccc{
+            font-size: calc(1.325rem + 0.9vw) !important;
+            color: white !important;
+        }    
+
+ body div.est h1.est-va{
+    font-size: calc(1.375rem + 1.5vw) !important;
+ }
+ body div.content--2  h2.Select{
+    font-size: calc(1.325rem + 0.9vw) !important;
+ }
+ body div.jej h2.zero{
+    font-size: calc(1.325rem + 0.9vw) !important;
+}
+h2#resultabsence{
+    font-size: calc(1.325rem + 0.9vw) !important;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
  @media (max-width:1166px) {
+    
     .navbar-expand-lg .navbar-collapse {
        
         justify-content: center;
@@ -310,8 +416,9 @@ object-fit: cover;
  }
  }
 @media (max-width:991px) {
-    .last-btn{
-        width: 80%;
+   
+    body div#button button.last-btn{
+        width: 80% !important;
      } 
    
     .geo{
