@@ -1,129 +1,178 @@
 body{
-    padding: 0px ;
-    margin: 0px;
-    box-sizing: border-box;
-    overflow-x:hidden ;
-    font-family: "Open Sans", sans-serif; 
+    padding: 0px !important ;
+    margin: 0px !important;
+    box-sizing: border-box !important;
+    overflow-x:hidden !important;
+    font-family: "Open Sans", sans-serif !important; 
  }/*
 #reven{
     padding-right: 20px;
 } */
-.first-text{
-    color:  rgb(246, 145, 28);
-    font-family: "Open Sans", sans-serif; 
-    font-weight: 700;
+body div.early h1.first-text{
+    color:  rgb(246, 145, 28) !important ;
+    font-family: "Open Sans", sans-serif !important; 
+    font-weight: 700 !important;
 }
-.first-p{
-    font-weight: 400;
-    font-family: montserrat, helvetica neue, sans-serif;
-    color:black;
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif; 
+body div.first-p{
+    font-weight: 400 !important;
+    font-family: montserrat, helvetica neue, sans-serif !important;
+    color:black !important;
+    font-size: 14px !important;
+    font-family: "Open Sans", sans-serif !important; 
 }
-.Select{
-    color:black;
-    font-family: montserrat, helvetica neue, sans-serif;
-    font-weight: 500;
-    text-align: start;
+ body div.content--2  h2.Select{
+    color:black !important;
+    font-family: montserrat, helvetica neue, sans-serif !important;
+    font-weight: 500 !important;
+    text-align: start !important;
 }
-.sele #sel{
-    font-family: "Open Sans", sans-serif; 
-    background-color: whitesmoke;
-    width: 80%;
-    height: 60px;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-    padding-left: 15px;
-    font-weight: 500;
-    color: black;
+body div.sele #sel{
+    font-family: "Open Sans", sans-serif !important; 
+    background-color: whitesmoke !important;
+    width: 80% !important;
+    height: 60px !important;
+    border: none !important;
+    border-radius: 10px  !important;
+    font-size: 20px !important;
+    padding-left: 15px !important;
+    font-weight: 500 !important;
+    color: black !important;
     
 }
-.sele #time{
-    background-color:whitesmoke;
-    width: 80%;
-    height: 60px;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-    padding-left: 15px;
-    color: black;
-    font-weight: 500;
+body div.sele  #time{
+    font-family: "Open Sans", sans-serif  !important; 
+    background-color:whitesmoke !important;
+    width: 80% !important;
+    height: 60px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-size: 20px !important;
+    padding-left: 15px !important;
+    color: black !important;
+    font-weight: 500 !important;
 }
-h5.Annual{
-    font-family: "Open Sans", sans-serif; 
-    color:black;
-    width: 80%;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-h6.how{
-
-    color:black;
-    width: 80%;
-    font-size: 13px;
-    font-weight: 300;
-    font-family: "Open Sans", sans-serif;
-}
-#input2{
-    background-color:white;
-    width: 80%;
-    height: 80px;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-size: 35px;
-    color: black;
-    padding-right: 20px;
-    text-align: end;
-    padding-left: 15px;
-    font-weight: 500;  
-}
-#input1{
-    background-color:white;
-    width: 80%;
-    height: 80px;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-size: 35px;
+body div.content3 h5.Annua{
+    font-family: "Open Sans", sans-serif !important; 
+ font-weight: 500 !important;
+font-size: 18px !important;
+    color:rgb(0, 0, 0) !important;
+    width: 80% !important;
+   
     
-    color: black;
-    padding-right: 20px;
-    text-align: end;
-    padding-left: 15px;
-    font-weight: 500;  
+}
+/* h5.Annua{
+    
+} */
+body div.est{
+   
+
+    display: flex !important; 
+    flex-direction:row !important;
+     text-align: center !important;
+}
+body div.est h1.est-va{
+color: white !important;
+}
+body div.content3 h6.how{
+    color:black !important;
+    width: 80% !important;
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    font-family: "Open Sans", sans-serif !important ;
+}
+body div#tex h6.How{
+    color:rgb(255, 255, 255) !important;
+    width: 80% !important;
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    font-family: "Open Sans", sans-serif !important;
+}
+body div.content3 div.allin #input2{
+    background-color:white !important;
+    width: 80% !important;
+    height: 80px !important;
+    border: 2px solid black !important;
+    border-radius: 10px !important;
+    font-size: 35px !important;
+    color: black !important;
+    padding-right: 20px !important;
+    text-align: end !important;
+    padding-left: 15px !important;
+    font-weight: 500 !important;  
+}
+body div.content3 div.allin #input1{
+    background-color:white !important;
+    width: 80% !important;
+    height: 80px !important;
+    border: 2px solid black !important;
+    border-radius: 10px !important;
+    font-size: 35px !important;
+    color: black !important;
+    padding-right: 20px !important;
+    text-align: end !important;
+    padding-left: 15px !important;
+    font-weight: 500 !important;  
 }
 #input1::placeholder{
-    color: rgb(117, 115, 111);
+    color: rgb(117, 115, 111) !important;
 }
 #input2::placeholder{
-    color: rgb(117, 115, 111);
+    color: rgb(117, 115, 111) !important;
 }
-.last-btn{
-   width: 40%;
-   border-radius: 5px; 
-    height: 60px;
-    color: white;
-    border: none;
-    background-color: #f6911c;
-    transition: 0.4s;
+body div#button button.last-btn{
+   width: 40%  !important;
+   border-radius: 5px !important; 
+    height: 60px !important;
+    color: white !important;
+    border: none !important;
+    background-color: #f6911c !important;
+    transition: 0.4s !important;
 }
-.last-btn:hover{
+body div#button button.last-btn:hover{
     background-color:rgb(222, 222, 222)!important ;
+    
 }
-#snd{
-    background-color: hwb(32 4% 8%);
+body div#sec div#snd{
+    background-color: hwb(32 4% 8%) !important;
   
 }
-.btun
-{font-family: "Open Sans", sans-serif; 
-    background-color: #f6911c;
-    border: none;
-    color: white;
+body div#sec div#Sav h2{
+    color: white !important;
+    font-family: "Open Sans", sans-serif !important;
+}
+body div#tex h5{
+    color: white !important;
+    font-family: "Open Sans", sans-serif !important;
+}
+body div.jej{
+    color: white !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+body div.jej2 h5{
+    color: rgb(244, 243, 243) !important;
+}
+body div h2#resultabsence{
+    color: rgb(255, 255, 255) !important;
+}
+body pre hr{
+    color: white !important;
+}
+body h6#lat{
+    color: white !important;
+    font-family: "Open Sans", sans-serif !important; 
+}
+
+body div.btun
+{
+    font-family: "Open Sans", sans-serif !important; 
+    background-color: #f6911c !important;
+    border: none !important;
+    color: white !important;
    
-    align-items: center;
-    border-radius: 10px;
-    padding-top: 0px;
+    align-items: center !important;
+    border-radius: 10px !important;
+    padding-top: 0px !important;
     padding-right: 0px !important;
     padding-left: 0px !important;
     box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
@@ -134,12 +183,12 @@ h6.how{
 
     justify-content: center;
 }
-.btu
-{font-family: "Open Sans", sans-serif; 
-    background-color: #f6911c;
-    border: none;
-    color: white;
-    padding-top: 0px;
+body div.btu
+{font-family: "Open Sans", sans-serif !important; 
+    background-color: #f6911c !important;
+    border: none !important;
+    color: white !important;
+    padding-top: 0px !important;
     padding-right: 0px !important;
     padding-left: 0px !important;
   
@@ -157,18 +206,18 @@ box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 3px 0px;
 }
 
 .big:hover{
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(222, 222, 222) !important;
 }
 
 .big{
-    font-family: "Open Sans", sans-serif; 
-    height: 50px;
-    border: none;
-    color: white;
-    width: 100% !important;
-    border-radius: 10px;
-    background-color:#f6911c ;
-    font-size: 20px;
+    font-family: "Open Sans", sans-serif !important; 
+    height: 50px !important;
+    border: none !important;
+    color: white !important;
+    width: 100% !important ;
+    border-radius: 10px !important;
+    background-color:#f6911c  !important;
+    font-size: 20px !important;
     transition: 0.4s !important;
 } 
 #lat{
