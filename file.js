@@ -85,7 +85,7 @@ function ff() {
 
 
 
-//    (totalAnnualAbsences * EDHDPV) * -1    
+
    
     io=input1.value;
     // EDHDPV =is
@@ -112,6 +112,10 @@ function ff() {
     if (savings<=0) {
         re.innerHTML=0;
     }
+    if (input1.innerHTML>=3400000){
+        reven.style.font-size=="10px"
+    }
+
     return    
 }
 
