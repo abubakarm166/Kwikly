@@ -81,7 +81,7 @@ else if (shift.value==="10") {
 function ff() {
 
 
- if (input1.value< 940000) {
+ 
 
 
 
@@ -111,8 +111,9 @@ function ff() {
     re.innerHTML=Math.round(savings);
     if (savings<=0) {
         re.innerHTML=0;
-    }90000
     }
-
-
+    return    
 }
+
+
+
